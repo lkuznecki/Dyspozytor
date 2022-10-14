@@ -1,0 +1,23 @@
+﻿<Window x:Class="Messenger_Faktury.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Messenger_Faktury"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Label Content="Adam Kowalski ID:77513" HorizontalAlignment="Left" Margin="308,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Proszę odebrać paczki nr 5532, 2531,1755 z magazynu" Background="CadetBlue" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="299" Height="29"/>
+        <Label Content="Proszę podać mi kolejność dostarczenia przesyłek" Background="Chartreuse" HorizontalAlignment="Left" Margin="517,116,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dostarcz paczkę 5532 najpierw na przesłany adres" Background="CadetBlue" HorizontalAlignment="Left" Margin="10,188,0,0" VerticalAlignment="Top" Width="299" Height="29"/>
+        <Label Content="Ostatnia paczka będzie lekko opóźniona &#xD;&#xA;- Roboty drogowe" Background="Chartreuse" HorizontalAlignment="Left" Margin="517,253,0,0" VerticalAlignment="Top" Height="50" Width="273"/>
+        <TextBox HorizontalAlignment="Left" Height="79" Margin="10,345,0,0" Text="Po dostarczeniu proszę kierować się spowrotem do zajezdni - to ostatnia paczka na dzisiaj" Background="CadetBlue" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" TextChanged="TextBox_TextChanged"/>
+        <Label Content="9:20" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top"/>
+        <Label Content="9:45" HorizontalAlignment="Left" Margin="752,308,0,0" VerticalAlignment="Top"/>
+        <Label Content="9:40" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top"/>
+        <Label Content="9:30" HorizontalAlignment="Left" Margin="752,147,0,0" VerticalAlignment="Top"/>
+        <Button Content="Wyślij" HorizontalAlignment="Left" Margin="295,404,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

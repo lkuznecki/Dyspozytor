@@ -1,0 +1,34 @@
+﻿@model Dyspozytor.Models.Pojazd
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Pojazd</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nazwa_Pojazdu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nazwa_Pojazdu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pojemnosc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pojemnosc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PojazdID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

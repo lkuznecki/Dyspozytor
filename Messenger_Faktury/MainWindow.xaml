@@ -1,0 +1,18 @@
+﻿<Window x:Class="Messenger_Faktury.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Messenger_Faktury"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="280,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="183"><Run Language="pl-pl" Text="Logowanie"/></TextBlock>
+        <PasswordBox x:Name="Pwbox"   HorizontalAlignment="Left" Margin="247,217,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtID"   HorizontalAlignment="Left" Margin="247,180,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="hasło" HorizontalAlignment="Left" Margin="166,213,0,0" VerticalAlignment="Top"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="166,180,0,0" VerticalAlignment="Top"/>
+        <Button Content="Zaloguj" HorizontalAlignment="Left" Click="Button_Click" Margin="247,256,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

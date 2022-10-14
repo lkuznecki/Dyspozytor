@@ -1,0 +1,66 @@
+﻿@model Dyspozytor.Models.Zlecenie
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Zlecenie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Kierowca.Nazwisko)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kierowca.Nazwisko)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pojazd.Nazwa_Pojazdu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pojazd.Nazwa_Pojazdu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Godz_Rozp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Godz_Rozp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Zleceniodawca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Zleceniodawca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Godz_zakoncz)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Godz_zakoncz)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wtrasie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wtrasie)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ZlecenieID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

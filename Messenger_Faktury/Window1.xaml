@@ -1,0 +1,45 @@
+﻿<Window x:Class="Messenger_Faktury.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Messenger_Faktury"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nr Faktury" HorizontalAlignment="Left" Margin="34,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.55,0.653"/>
+        <Label Content="Typ Dokumentu" HorizontalAlignment="Left" Margin="34,93,0,0" VerticalAlignment="Top"/>
+        <Label Content="Wystawił" HorizontalAlignment="Left" Margin="38,134,0,0" VerticalAlignment="Top"/>
+        <Label Content="Data sprzedaży" HorizontalAlignment="Left" Margin="34,178,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sp.Płatności" HorizontalAlignment="Left" Margin="38,217,0,0" VerticalAlignment="Top"/>
+        <Label Content="Data wysyłki" HorizontalAlignment="Left" Margin="34,269,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nr Sekwencyjny" HorizontalAlignment="Left" Margin="287,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.55,0.653"/>
+        <Label Content="Status" HorizontalAlignment="Left" Margin="287,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.404,0.579"/>
+        <Label Content="Seria" HorizontalAlignment="Left" Margin="287,178,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.586,1.003"/>
+        <Label Content="Data Wystawienia" HorizontalAlignment="Left" Margin="287,134,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.55,0.653"/>
+        <Label Content="Płatne do" HorizontalAlignment="Left" Margin="287,98,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.55,0.653"/>
+        <Label Content="Klient" HorizontalAlignment="Left" Margin="548,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.55,0.653"/>
+        <Label Content="Adres" HorizontalAlignment="Left" Margin="548,116,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.55,0.653"/>
+        <Label Content="NIP" HorizontalAlignment="Left" Margin="548,165,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.55,0.653"/>
+        <TextBox HorizontalAlignment="Left" Margin="133,67,0,0" Text="7722412" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="133,101,0,0" Text="Faktura" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="133,134,0,0" Text="Leszek Zieliński" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="133,182,0,0" Text="2019-06-23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="133,221,0,0" Text="Gotówka" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="133,273,0,0" Text="Nie wysłano" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="400,67,0,0" Text="4511342" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="400,101,0,0" Text="2019-07-23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="400,138,0,0" Text="2019-06-23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="400,182,0,0" Text="TR" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="400,221,0,0" Text="ProForma" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="606,76,0,0" Text="Malanowski.inc" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="606,124,0,0" Text="Skołyszyn 35" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="606,173,0,0" Text="HU14453105" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Faktury" HorizontalAlignment="Left" Margin="308,19,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.421,0.541" Width="85"/>
+        <Label Content="Notatki" HorizontalAlignment="Left" Margin="42,332,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="78" Margin="124,332,0,0" Text="Zamówienie wykonać w godzinach 15-22 Fakture pokwituje członek zarządu" TextWrapping="Wrap" VerticalAlignment="Top" Width="646"/>
+        <Button Content="Messanger" HorizontalAlignment="Left" Margin="666,291,0,0" VerticalAlignment="Top" Height="26" Width="104" Click="Button_Click"/>
+        <Button Content="Drukuj" HorizontalAlignment="Left" Margin="568,288,0,0" VerticalAlignment="Top" Height="29" Width="56" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
